@@ -7,7 +7,7 @@ let messages = [
 "You deserve everything because?? you are a good person dude!!!",
 "You are a lovely woman 🤭💕",
 "You make the world brighter 🙌🤧",
-"Happy Women's Day💜" + name
+"Happy Women's Day💜"
 
 ];
 
@@ -225,3 +225,4 @@ window.onload = function(){
 createPetals();
 
 }
+
