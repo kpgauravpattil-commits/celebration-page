@@ -1,0 +1,204 @@
+body{
+font-family: Arial, sans-serif;
+text-align:center;
+background: linear-gradient(135deg,#ffd6f6,#ffeafc,#e8f0ff);
+min-height:100vh;
+margin:0;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+
+overflow-x:hidden;
+}
+
+/* TITLE */
+
+h1{
+color:#7a2b87;
+margin-bottom:10px;
+}
+
+/* SUBTITLE */
+
+.subtitle{
+font-size:20px;
+color:#555;
+margin-bottom:20px;
+}
+
+/* BUTTONS */
+
+button{
+padding:12px 25px;
+border:none;
+border-radius:20px;
+background:#ff8bd1;
+color:white;
+font-size:18px;
+margin:10px;
+cursor:pointer;
+transition:0.2s;
+}
+
+button:hover{
+transform:scale(1.05);
+box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* MESSAGE CARDS */
+
+.card{
+background:white;
+padding:20px;
+margin:10px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+width:300px;
+max-width:80%;
+}
+
+/* FALLING PETALS */
+
+.petal{
+position:fixed;
+top:-10px;
+font-size:15px;
+pointer-events:none;
+animation:fall 5.5s linear forwards;
+}
+
+@keyframes fall{
+
+0%{
+transform:translateY(-10px) rotate(0deg);
+opacity:1;
+}
+
+100%{
+transform:translateY(110vh) rotate(540deg);
+opacity:0.8;
+}
+
+}
+
+/* CONFETTI */
+
+.confetti{
+position:fixed;
+width:10px;
+height:10px;
+pointer-events:none;
+animation:explode 3.5s ease-out forwards;
+}
+
+@keyframes explode{
+
+0%{
+transform:translate(0,0) rotate(0deg);
+opacity:1;
+}
+
+100%{
+transform:translate(var(--x), var(--y)) rotate(1090deg);
+opacity:0;
+}
+
+}
+
+.confettiRain{
+position:fixed;
+pointer-events:none;
+animation:confettiRainFall 3.5s linear forwards;
+will-change: transform ;
+}
+
+@keyframes confettiRainFall{
+
+0%{
+transform:translateY(0);
+opacity:1;
+}
+
+100%{
+transform:translateY(110vh);
+opacity:0;
+}
+
+}
+
+.sticker{
+position:fixed;
+width:120px;
+pointer-events:none;
+animation:moveAround 6s linear infinite;
+}
+
+.sticker{
+position: fixed;
+width:120px;
+pointer-events:none;
+}
+
+.s1{
+top:15%;
+width:20%;
+}
+
+.s2{
+top:20%;
+right:25%;
+width:10%;
+transform: rotate(25deg);
+}
+
+.s3{
+top:28%;
+left:30%;
+width:6%;
+transform: rotate(-25deg);
+}
+
+.s4{
+top:38%;
+right:30%;
+width:8%;
+transform: rotate(25deg);
+}
+
+.s5{
+top:51%;
+left:30%;
+width:7%;
+transform: rotate(-25deg);
+}
+
+.s6{
+top:61%;
+right:30%;
+width:8%;
+transform: rotate(25deg);
+}
+
+.s7{
+top:5%;
+width:15%;
+}
+
+.s8{
+top:9%;
+width:15%;
+}
+
+.s9{
+top:23%;
+left:53%;
+width:7%;
+}
+
+.s10{
+top:20%;
+left:53%;
+width:7%;
+}
