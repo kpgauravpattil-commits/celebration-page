@@ -138,8 +138,8 @@ pointer-events:none;
 }
 
 .s1{
-top:15vh;
-width:20vw;
+top:15%;
+width:20%;
 }
 
 .s2{
@@ -215,6 +215,7 @@ width:7%;
     width: 20vw; /* scale stickers bigger on mobile */
   }
 }
+
 
 
 
