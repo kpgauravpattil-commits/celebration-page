@@ -15,8 +15,6 @@ let index = 0;
 
 function start(){
 
-playClick();
-
 window.location.href = "messages.html";
 
 }
@@ -226,3 +224,4 @@ createPetals();
 
 
 }
+
