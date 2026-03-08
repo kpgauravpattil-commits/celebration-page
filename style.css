@@ -201,4 +201,21 @@ width:7%;
 top:20%;
 left:53%;
 width:7%;
+
+}
+
+/* For phones only */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 8vw;
+  }
+
+  button {
+    padding: 4vw 8vw;
+    font-size: 5vw;
+  }
+
+  .s1, .s2, .s3 {
+    width: 20vw; /* scale stickers bigger on mobile */
+  }
 }
