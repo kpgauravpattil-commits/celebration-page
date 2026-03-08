@@ -142,65 +142,65 @@ pointer-events:none;
 }
 
 .s1{
-top:15%;
-width:20%;
+top:15vh;
+width:20vw;
 }
 
 .s2{
-top:20%;
-right:25%;
-width:10%;
+top:20vh;
+left:75vw;
+width:10vw;
 transform: rotate(25deg);
 }
 
 .s3{
-top:28%;
-left:30%;
-width:6%;
+top:28vh;
+left:30vw;
+width:6vw;
 transform: rotate(-25deg);
 }
 
 .s4{
-top:38%;
-right:30%;
-width:8%;
+top:38vh;
+left:70vw;
+width:8vw;
 transform: rotate(25deg);
 }
 
 .s5{
-top:51%;
-left:30%;
-width:7%;
+top:51vh;
+left:30vw;
+width:7vw;
 transform: rotate(-25deg);
 }
 
 .s6{
-top:61%;
-right:30%;
-width:8%;
+top:61vh;
+left:70vw;
+width:8vw;
 transform: rotate(25deg);
 }
 
 .s7{
-top:5%;
-width:15%;
+top:5vh;
+width:15vw;
 }
 
 .s8{
-top:9%;
-width:15%;
+top:9vh;
+width:15vw;
 }
 
 .s9{
-top:23%;
-left:53%;
-width:7%;
+top:23vh;
+left:53vw;
+width:7vw;
 }
 
 .s10{
-top:20%;
-left:53%;
-width:7%;
+top:20vh;
+left:53vw;
+width:7vw;
 }
 
 @media only screen and (max-width: 600px) {
@@ -208,3 +208,4 @@ width:7%;
     width: 25vw; /* bigger on small screens */
   }
 }
+
