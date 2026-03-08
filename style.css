@@ -130,12 +130,6 @@ opacity:0;
 
 }
 
-.sticker{
-position:fixed;
-width:120px;
-pointer-events:none;
-animation:moveAround 6s linear infinite;
-}
 
 .sticker{
 position: absolute;
@@ -221,6 +215,7 @@ width:7%;
     width: 20vw; /* scale stickers bigger on mobile */
   }
 }
+
 
 
 
