@@ -22,8 +22,6 @@ window.location.href = "messages.html";
 
 function nextMessage(){
 
-playClick();
-
 let msg = document.getElementById("message");
 
 if(index < messages.length){
@@ -67,8 +65,6 @@ clearInterval(typing);
 
 function nextPage(){
 
-playClick();
-
 window.location.href = "final.html";
 
 }
@@ -76,15 +72,11 @@ window.location.href = "final.html";
 
 function yesAnswer(){
 
-playClick();
-
 window.location.href = "celebration.html";
 
 }
 
 function noAnswer(){
-
-playClick();
 
 window.location.href = "comfort.html";
 
@@ -92,8 +84,6 @@ window.location.href = "comfort.html";
 
 
 function goCelebrate(){
-
-playClick();
 
 window.location.href = "celebration.html";
 
@@ -224,4 +214,5 @@ createPetals();
 
 
 }
+
 
