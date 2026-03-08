@@ -197,7 +197,5 @@ width:7%;
 }
 
 @media only screen and (max-width: 600px) {
-  .sticker {
-    width: 25vw; /* bigger on small screens */
-  }
+  .sticker { display: none; }
 }
