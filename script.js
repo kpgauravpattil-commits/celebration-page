@@ -220,20 +220,9 @@ petal.remove();
 
 }
 
-
-function playClick(){
-
-let audio = new Audio("click.mp3");
-
-audio.volume = 0.5;
-
-audio.play();
-
-}
-
-
 window.onload = function(){
 
 createPetals();
+
 
 }
