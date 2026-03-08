@@ -87,8 +87,8 @@ opacity:0.8;
 
 .confetti{
 position:fixed;
-width:10px;
-height:10px;
+width:3px;
+height:3px;
 pointer-events:none;
 animation:explode 3.5s ease-out forwards;
 }
@@ -219,3 +219,4 @@ width:7%;
     width: 20vw; /* scale stickers bigger on mobile */
   }
 }
+
